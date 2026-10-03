@@ -211,7 +211,7 @@ The empirical evidence strongly supports **business continuation and scaling**:
 * **Design Choice:** Utilizing a continuous axis baseline derived from fully settled historical cycles (2021–2025), a 2-year automated time-series forecast was generated to project performance across **2026 and 2027**.
 * **Interpretation of Bounds:** The chart displays a clear center run-rate accompanied by shaded upper-bound and lower-bound thresholds (**Confidence Intervals**). This explicitly simulates operational risk for the business owner: the center path maps expected trajectory, while the shaded boundaries prove that even in a worst-case downfall or a sudden holiday order surge, operations remain structurally insulated.
 
-## Power BI Dashboard Layouts (Click images to expand)
+## Power BI Dashboard Layouts
 
 ### Page 1: Executive KPI & Revenue Summary
 [![Executive KPI Dashboard](images/Rohini_Bakery_Page_1.png)](images/Rohini_Bakery_Page_1.png)
