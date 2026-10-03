@@ -201,16 +201,26 @@ The empirical evidence strongly supports **business continuation and scaling**:
 ## 🎨 Visualization Strategy & Strategic Defense (Page 1)
 ### 1. Macro Charting Decisions: Donut & Clustered Column Layouts 
 * **Donut Chart Selection (Delivery Type Breakdown):** A Donut Chart was strategically deployed on Page 1 because it isolates a low-cardinality categorical variable (Home Delivery vs. Store Pickup). By displaying only two distinct parts of a whole, it provides an instant visual metric of logistics distribution without creating visual clutter, allowing Rohini to quickly see if her business requires heavy delivery infrastructure.
-* **Annual Revenue vs. Net Earnings Clustered Column Chart:** This chart acts as the primary health indicator of the business's scaling efficiency. By placing gross revenue and net post-tax earnings columns directly side-by-side across sequential financial years, the visual instantly exposes the widening or narrowing gap between top-line volume and bottom-line take-home wealth. This maps her operational stress points immediately. Rohini_Bakery_Page_1.png
-
+* **Annual Revenue vs. Net Earnings Clustered Column Chart:** This chart acts as the primary health indicator of the business's scaling efficiency. By placing gross revenue and net post-tax earnings columns directly side-by-side across sequential financial years, the visual instantly exposes the widening or narrowing gap between top-line volume and bottom-line take-home wealth. This maps her operational stress points immediately.
 
 ### 2. Clustered Column Chart vs. 100% Stacked Chart (Page 2)
 * **Design Choice:** The multi-year product distribution on Page 2 is deliberately rendered via a **Clustered Column Chart** rather than a 100% Stacked Chart model.
-* **Business Justification:** A 100% stacked chart forces every annual column to scale to an identical 100% ceiling height, which completely blinds a business owner to overall volume expansion. Furthermore, low-volume, premium niche products (such as *Strawberry Cake* and seasonal *Dry Fruit Plum Cake*) get crushed into tiny, unreadable slivers at the boundaries of a stacked column. The clustered format preserves their distinct scale, allowing Rohini to verify exactly how many kilograms of these custom flavors sell during specific operational periods. Rohini_Bakery_Page_2.png
+* **Business Justification:** A 100% stacked chart forces every annual column to scale to an identical 100% ceiling height, which completely blinds a business owner to overall volume expansion. Furthermore, low-volume, premium niche products (such as *Strawberry Cake* and seasonal *Dry Fruit Plum Cake*) get crushed into tiny, unreadable slivers at the boundaries of a stacked column. The clustered format preserves their distinct scale, allowing Rohini to verify exactly how many kilograms of these custom flavors sell during specific operational periods.
 
 ### 3. The Predictive 2-Year Strategic Horizon (Page 3)
 * **Design Choice:** Utilizing a continuous axis baseline derived from fully settled historical cycles (2021–2025), a 2-year automated time-series forecast was generated to project performance across **2026 and 2027**.
-* **Interpretation of Bounds:** The chart displays a clear center run-rate accompanied by shaded upper-bound and lower-bound thresholds (**Confidence Intervals**). This explicitly simulates operational risk for the business owner: the center path maps expected trajectory, while the shaded boundaries prove that even in a worst-case downfall or a sudden holiday order surge, operations remain structurally insulated. Rohini_Bakery_Page_3.png
+* **Interpretation of Bounds:** The chart displays a clear center run-rate accompanied by shaded upper-bound and lower-bound thresholds (**Confidence Intervals**). This explicitly simulates operational risk for the business owner: the center path maps expected trajectory, while the shaded boundaries prove that even in a worst-case downfall or a sudden holiday order surge, operations remain structurally insulated.
+
+## Power BI Dashboard Layouts (Click images to expand)
+
+### Page 1: Executive KPI & Revenue Summary
+[![Executive KPI Dashboard](images/Rohini_Bakery_Page_1.png)](images/Rohini_Bakery_Page_1.png)
+
+### Page 2: Operational Trends & Performance Analysis
+[![Operational Trends Dashboard](images/Rohini_Bakery_Page_2.png)](images/Rohini_Bakery_Page_2.png)
+
+### Page 3: Detailed Financial & Product Insights
+![Financial Insights Dashboard](images/Rohini_Bakery_Page_3.png)](images/Rohini_Bakery_Page_3.png)
 
 ---
 
