@@ -127,7 +127,7 @@ True Yearly Earnings =
 SUM(monthly_metrics[earnings]) - (SUM(monthly_metrics[total_hours_worked]) * 1000)
 ```
 
-* **Strategic Analytical Context:** By establishing a baseline skilled labor cost threshold of **₹1,000 per hour**, the data model calculates whether the enterprise generates a true structural surplus. This provides empirical evidence to determine if the premium pricing model successfully absorbs manual production constraints.
+* **Strategic Analytical Context:** By establishing a baseline skilled labor cost threshold of **₹500 per hour**, the data model calculates whether the enterprise generates a true structural surplus. This provides empirical evidence to determine if the premium pricing model successfully absorbs manual production constraints.
 
 ---
 
