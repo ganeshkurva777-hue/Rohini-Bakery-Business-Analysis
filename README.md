@@ -155,7 +155,7 @@ I created this measure for the Page 1 KPI banner to track the average size of cu
 
 ```dax
 Average Order Value = 
-DIVIDE(SUM(mtly_metrics[mtly_revenue]), SUM(cakes_mtly[mtly_orders]), 0)
+DIVIDE(SUM(mtly_metrics[mtly_revenue]), COUNT(cakes_mtly[mtly_orders]), 0)
 ```
 
 ---
@@ -200,7 +200,7 @@ This page gives a high-level health analysis of the bakery business. I designed 
 
 This page focuses on tracking how the product lines are growing over the timeline. I chose the chart types specifically to show honest business volume:
 
-* **Clustered Column Chart over 100% Stacked Chart (Flavor Volume Analysis):** I deliberately used a Clustered Column Chart instead of a 100% Stacked Column Graph to track the physical kilograms of cake sold per flavor over the years. A 100% stacked chart stretches all bars to the exact same ceiling, which hides the actual growth of the business. The clustered column graph clearly shows the real volume expansion over time and stops low-volume, premium niche products (like *Strawberry Cake* and seasonal *Dry Fruit Plum Cake*) from getting squished into tiny, unreadable slivers at the top of a stacked bar.
+* **Clustered Column Chart over 100% Stacked Chart (Flavor Volume Analysis):** I deliberately used a Clustered Column Chart instead of a 100% Stacked Column Graph to track the revenue of cake sold per flavor over the years. A 100% stacked chart stretches all bars to the exact same ceiling, which hides the actual growth of the business. The clustered column graph clearly shows the real volume expansion over time and stops low-volume, premium niche products (like *Strawberry Cake* and seasonal *Dry Fruit Plum Cake*) from getting squished into tiny, unreadable slivers at the top of a stacked bar.
 * **Order Frequency and Quantity Trends:** Line and column combinations show the total monthly orders alongside physical order weights across the 6-year scale, tracking seasonal spikes and operational limits.
 
 [![Operational Trends Dashboard](images/Rohini_Bakery_Page_2.png)](images/Rohini_Bakery_Page_2.png)
